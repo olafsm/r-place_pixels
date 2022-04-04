@@ -165,9 +165,9 @@ async function executeOrders() {
 	var ctx;
 	try {
 		ctx = await getCanvasFromUrl(await getCurrentImageUrl('0'), 0, 0);
-		ctx = await getCanvasFromUrl(await getCurrentImageUrl('1'), 1000, 0);
-		ctx = await getCanvasFromUrl(await getCurrentImageUrl('2'), 0, 1000);
-		ctx = await getCanvasFromUrl(await getCurrentImageUrl('3'), 1000, 1000);
+		ctx = await getCanvasFromUrl(await getCurrentImageUrl('1'), 2000, 0);
+		ctx = await getCanvasFromUrl(await getCurrentImageUrl('2'), 0, 2000);
+		ctx = await getCanvasFromUrl(await getCurrentImageUrl('3'), 2000, 2000);
 	} catch (e) {
 		console.warn('Error obtaining map', e);
 		Toastify({
