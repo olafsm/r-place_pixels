@@ -15,7 +15,7 @@
 // @grant        GM_addStyle
 // ==/UserScript==
 
-const ORDERS_URL = 'https://raw.githubusercontent.com/ForsenPlace/Orders/main/orders.json'
+const ORDERS_URL = 'https://raw.githubusercontent.com/olafsm/r-place_pixels/main/orders.json'
 
 const ORDER_UPDATE_DELAY = 4 * 60 * 1000
 const TOAST_DURATION = 10 * 1000
